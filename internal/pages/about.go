@@ -65,6 +65,7 @@ func NewAbout(markdownContent string) AboutModel {
 	return AboutModel{
 		content: markdownContent,
 		runes:   []rune(markdownContent),
+		active:  true,
 	}
 }
 
