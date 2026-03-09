@@ -10,12 +10,14 @@ import (
 	"time"
 
 	tea "github.com/charmbracelet/bubbletea"
+	"github.com/charmbracelet/lipgloss"
 	"github.com/charmbracelet/log"
 	"github.com/charmbracelet/ssh"
 	"github.com/charmbracelet/wish"
 	"github.com/charmbracelet/wish/activeterm"
 	bm "github.com/charmbracelet/wish/bubbletea"
 	lm "github.com/charmbracelet/wish/logging"
+	"github.com/muesli/termenv"
 	"github.com/carlfung1003/ssh-portfolio/internal/app"
 	"github.com/carlfung1003/ssh-portfolio/internal/content"
 )
@@ -25,6 +27,8 @@ func main() {
 
 	// SSH server mode
 	if len(os.Args) > 1 && os.Args[1] == "--serve" {
+		// Force TrueColor — lipgloss can't detect terminal capabilities over SSH
+		lipgloss.SetColorProfile(termenv.TrueColor)
 		runSSHServer(data)
 		return
 	}
