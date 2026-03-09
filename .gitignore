@@ -1,0 +1,5 @@
+ssh-portfolio
+.ssh/
+.env*
+*.pem
+*.key

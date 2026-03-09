@@ -1,0 +1,59 @@
+[
+  {
+    "company": "Yahoo Finance",
+    "role": "Senior Technical Program Manager",
+    "startDate": "2024",
+    "endDate": "Present",
+    "type": "work",
+    "highlights": [
+      "Leading cross-functional programs across finance platform engineering",
+      "Driving AI integration and automation initiatives"
+    ]
+  },
+  {
+    "company": "NerdWallet",
+    "role": "Technical Program Manager",
+    "startDate": "2022",
+    "endDate": "2024",
+    "type": "work",
+    "highlights": [
+      "Managed platform engineering programs serving millions of users",
+      "Led migration and modernization initiatives"
+    ]
+  },
+  {
+    "company": "Clover Health",
+    "role": "Technical Program Manager",
+    "startDate": "2018",
+    "endDate": "2022",
+    "type": "work",
+    "highlights": [
+      "Managed healthcare tech platform programs",
+      "Coordinated engineering teams across multiple product lines"
+    ]
+  },
+  {
+    "company": "Stanford University",
+    "role": "Stanford Certified Project Manager",
+    "startDate": "2024",
+    "endDate": "2024",
+    "type": "education",
+    "highlights": []
+  },
+  {
+    "company": "University of San Francisco",
+    "role": "MPA, Healthcare Administration",
+    "startDate": "2015",
+    "endDate": "2017",
+    "type": "education",
+    "highlights": []
+  },
+  {
+    "company": "UC Davis",
+    "role": "BS Biochemistry",
+    "startDate": "2009",
+    "endDate": "2013",
+    "type": "education",
+    "highlights": []
+  }
+]

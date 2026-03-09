@@ -1,0 +1,42 @@
+[
+  {
+    "title": "AI Journey Portfolio",
+    "description": "Full-stack portfolio site with blog, project showcase, timeline, and admin CMS. Features dark theme, markdown rendering with syntax highlighting, and dynamic content from Turso DB.",
+    "tags": ["Next.js 16", "Prisma 7", "Turso", "Tailwind 4", "Framer Motion"],
+    "status": "active",
+    "liveUrl": "https://ai-journey-ten.vercel.app",
+    "repoUrl": "https://github.com/carlfung1003/ai-journey"
+  },
+  {
+    "title": "Pantry & Receipt App",
+    "description": "Scan grocery receipts with AI-powered OCR, automatically track pantry items with shelf life predictions, and get expiry alerts. Uses Google Cloud Vision + Claude Haiku for intelligent parsing.",
+    "tags": ["Next.js 16", "Prisma 7", "Turso", "Claude Haiku", "GCP Vision"],
+    "status": "active",
+    "liveUrl": "https://pantry-app-carlfung1003-5927s-projects.vercel.app",
+    "repoUrl": ""
+  },
+  {
+    "title": "SSH Portfolio (this!)",
+    "description": "The terminal-based portfolio you're browsing right now. Built with Go and the Charmbracelet TUI ecosystem, served over SSH.",
+    "tags": ["Go", "Bubble Tea", "Wish", "Lip Gloss"],
+    "status": "active",
+    "liveUrl": "",
+    "repoUrl": "https://github.com/carlfung1003/ssh-portfolio"
+  },
+{
+    "title": "Trip Planner",
+    "description": "Lightweight travel planning tool with itinerary builder. Pure HTML/CSS/JS with no framework — proving that sometimes the simplest approach wins.",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "status": "active",
+    "liveUrl": "https://trip-planner-psi-inky.vercel.app",
+    "repoUrl": "https://github.com/carlfung1003/trip-planner"
+  },
+  {
+    "title": "Interactive Travel Map",
+    "description": "Interactive world map marking places I've visited, with photo galleries pulled from Instagram. Built with Leaflet.js and Zustand for state management.",
+    "tags": ["Next.js 15", "Leaflet", "Zustand"],
+    "status": "in-progress",
+    "liveUrl": "",
+    "repoUrl": ""
+  }
+]

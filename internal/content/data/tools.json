@@ -1,0 +1,18 @@
+[
+  {"name": "Claude Code", "category": "AI", "proficiency": 5},
+  {"name": "MCP", "category": "AI", "proficiency": 5},
+  {"name": "Gemini", "category": "AI", "proficiency": 4},
+  {"name": "n8n", "category": "AI", "proficiency": 4},
+  {"name": "TypeScript", "category": "Language", "proficiency": 4},
+  {"name": "Python", "category": "Language", "proficiency": 3},
+  {"name": "Go", "category": "Language", "proficiency": 2},
+  {"name": "Next.js", "category": "Framework", "proficiency": 4},
+  {"name": "React", "category": "Framework", "proficiency": 4},
+  {"name": "Tailwind CSS", "category": "Framework", "proficiency": 4},
+  {"name": "Bubble Tea", "category": "Framework", "proficiency": 2},
+  {"name": "Prisma", "category": "Database", "proficiency": 4},
+  {"name": "Turso", "category": "Database", "proficiency": 4},
+  {"name": "Vercel", "category": "Infra", "proficiency": 4},
+  {"name": "Docker", "category": "Infra", "proficiency": 3},
+  {"name": "GitHub Actions", "category": "Infra", "proficiency": 4}
+]
