@@ -6,7 +6,9 @@ COPY . .
 RUN CGO_ENABLED=0 go build -o ssh-portfolio .
 
 FROM alpine:3.21
-RUN apk add --no-cache ca-certificates
+RUN apk add --no-cache ca-certificates openssh-keygen
 COPY --from=builder /app/ssh-portfolio /usr/local/bin/
+COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 EXPOSE 2222
-CMD ["ssh-portfolio", "--serve"]
+ENTRYPOINT ["/entrypoint.sh"]
