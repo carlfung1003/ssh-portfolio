@@ -15,11 +15,12 @@ Set Framerate 30
 Hide
 Type "deactivate 2>/dev/null; clear && ./ssh-portfolio"
 Enter
-Sleep 1.5s
+Sleep 0.3s
 Show
 
-# About page — let the typing animation play out
-Sleep 8s
+# About page — watch ASCII art draw line-by-line, then typing animation
+# Art reveal ~1.2s, typing ~4s, then gradient wave pulses
+Sleep 10s
 
 # Navigate to Projects
 Right
@@ -41,6 +42,6 @@ Sleep 3s
 Right
 Sleep 3s
 
-# Back to About to close the loop
+# Back to About — gradient wave still pulsing
 Right
-Sleep 2s
+Sleep 4s
